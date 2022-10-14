@@ -31,7 +31,11 @@
         color: white;
         cursor: pointer;
         border: none;
+        &:hover {
+          opacity: 0.5;
+        }
       }
+
       &--small {
         background-color: $olive;
         padding: 0.8rem;
