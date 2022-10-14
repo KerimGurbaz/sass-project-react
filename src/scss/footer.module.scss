@@ -1,0 +1,15 @@
+@import "./varibale";
+
+footer {
+  background-color: $darkPink;
+  padding: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  font-size: 1.5rem;
+  .title {
+    color: white;
+    text-align: center;
+  }
+}
